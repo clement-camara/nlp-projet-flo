@@ -52,11 +52,11 @@ data['spam'] = data['label'].map({'ham':0, 'spam':1})
 data['length'] = data['text'].apply(len)
 data.head()
 
-plt.figure(figsize=(8,6))
-ax = sns.histplot(data=data, x='length', hue='label')
-ax.set_title("Nombres de messages (hams/spams) en fonction de leur longueurs", fontsize=15)
-ax.set_xlabel('Longueur des messages', fontsize= 12)
-ax.set_ylabel('Nombre de messages', fontsize= 12)
+# plt.figure(figsize=(8,6))
+# ax = sns.histplot(data=data, x='length', hue='label')
+# ax.set_title("Nombres de messages (hams/spams) en fonction de leur longueurs", fontsize=15)
+# ax.set_xlabel('Longueur des messages', fontsize= 12)
+# ax.set_ylabel('Nombre de messages', fontsize= 12)
 
 
 
