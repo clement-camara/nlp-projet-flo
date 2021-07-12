@@ -1,3 +1,11 @@
-streamlit
-matplotlib
+
+psycopg2==2.8.6
+
+scikit-learn
+seaborn==0.10.0
+
+unicodecsv==0.14.1
+wordcloud==1.8.1
+
 pandas
+matplotlib
